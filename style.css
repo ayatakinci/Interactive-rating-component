@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background: #121417;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    color: white;
+  }
+.wrap{
+    background-color: rgb(20, 21, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+.container{
+    max-width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background: #252d37;
+    border-radius: 30px;
+    padding: 35px;
+}
+.uppercontent{
+    width: 50%;
+    height: 27%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+}
+.yazi{
+    color: rgb(97, 104, 114);
+    width: 100%;
+    
+}
+.lowerContent{
+  display: flex;
+  flex-direction: column;  
+   
+}
+.hi{
+    display: flex;
+    margin-top: 85px;
+    gap: 44px;
+}
+.star{
+    width: 50px;
+    height: 50px;
+    background: #3a4655;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    color: orange;
+}
+.btn{
+    font-family: 'Overpass', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  background: #fb7413;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  margin-top: 17px;
+}
+.btn:hover {
+    background: #a64703;
+   
+  }
+.btns1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    color: rgb(128, 137, 146);
+    border-color: rgb(38, 47, 56);
+    background-color: rgb(47, 56, 66);
+    text-align: center;
+    line-height: 50px;
+}
